@@ -25,6 +25,11 @@
                         <div class="arrow right"></div>
                     </div>
                     <div class="schema__img">
+                        <div class="words">
+                            <span class="word">Привет</span>
+                            <span class="word">Как дела?</span>
+                            <span class="word">Отлично!</span>
+                        </div>
                         <img src="wp-content/themes/api2cart/assets/img/api-flower-white.png" alt="API Flower White">
                     </div>
                     <div class="arrows">

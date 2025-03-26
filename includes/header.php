@@ -142,12 +142,12 @@
                 </div>
             </div>
             <div class="pure-u-1 pure-u-sm-1-6">
-                <div class="button-groups">
-                    <div class="login">
-                        <a href="https://app.api2cart.com/?demo=true" class="login__btn">Login</a>
+                <div class="buttons">
+                    <div class="buttons__login button">
+                        <a href="https://app.api2cart.com/?demo=true" class="button__link button__link_orange">Login</a>
                     </div>
-                    <div class="demo">
-                        <a href="https://api2cart.com/book-a-demo/" class="demo__btn">Book a Demo</a>
+                    <div class="buttons__demo button">
+                        <a href="https://api2cart.com/book-a-demo/" class="button__link button__link_transparent">Book a Demo</a>
                     </div>
                 </div>
             </div>

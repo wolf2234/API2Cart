@@ -9,8 +9,9 @@
 <body>
     <div class="wrapper">
         <?php include 'includes/header.php';?>
-	<main class="main">
-    </main>
+        <?php include 'includes/sub-header.php';?>
+        <main class="main">
+        </main>
         <?php include 'includes/footer.php' ?>
     </div>
     <?php wp_footer(); ?>

@@ -1,0 +1,167 @@
+.sub-header {
+    width: 100%;
+    height: 100%;
+    background-color: #005dd4;
+}
+
+.sub-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+}
+
+.sub-info__title {}
+
+.sub-info__text {}
+
+.sub-info__button.button .button__link_orange {
+    padding: 14px 22px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.schema {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    column-gap: 15px;
+    justify-content: flex-end;
+    border: 1px solid red;
+    margin: 0;
+}
+
+
+.schema__img {}
+
+.arrows {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.arrow {
+    width: 10px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+.left {
+    transform: rotate(35deg);
+    animation: moveArrowLeft 2s infinite alternate ease-in-out;
+}
+
+.right {
+    transform: rotate(-12deg);
+    animation: moveArrowRight 2s infinite alternate ease-in-out;
+}
+
+.dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    position: relative;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dot:nth-child(1) {
+    left: 0;
+    animation: moveDotLeft 2s infinite alternate ease-in-out;
+}
+
+.dot:nth-child(2) {
+    left: 50%;
+    transform: translateX(-50%);
+    animation: scaleDot 2s infinite alternate ease-in-out;
+}
+
+.dot:nth-child(3) {
+    right: 0;
+    animation: moveDotRight 2s infinite alternate ease-in-out;
+}
+
+/* Двигаем точки к центру и обратно */
+@keyframes moveDotLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveDotRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Увеличение центральной точки */
+@keyframes scaleDot {
+
+    0%,
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+
+    50% {
+        transform: translateX(-50%) scale(1.5);
+    }
+}
+
+/* Исправленный код: стрелки двигаются строго по горизонтали */
+@keyframes moveArrowLeft {
+    0% {
+        transform: translateX(0) rotate(135deg);
+    }
+
+    50% {
+        transform: translateX(20px) rotate(135deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(135deg);
+    }
+}
+
+@keyframes moveArrowRight {
+    0% {
+        transform: translateX(0) rotate(-45deg);
+    }
+
+    50% {
+        transform: translateX(-20px) rotate(-45deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(-45deg);
+    }
+}

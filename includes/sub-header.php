@@ -14,6 +14,7 @@
                 <div class="schema">
                     <div class="schema__image">
                         <img src="wp-content/themes/api2cart/assets/img/your-app-software.png" alt="Your App Software">
+                        <span class="schema__title">Your APP or Software</span>
                     </div>
                     <div class="arrows">
                         <div class="arrow left"></div>
@@ -45,6 +46,7 @@
                     </div>
                     <div class="schema__image">
                         <img src="wp-content/themes/api2cart/assets/img/supported-platforms-scheme.png" alt="Supported Platforms Scheme">
+                        <span class="schema__title">more than 60 Supported eCommerce Platforms</span>
                     </div>
                 </div>
             </div>

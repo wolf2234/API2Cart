@@ -15,6 +15,7 @@
             <?php include 'includes/advantages.php';?>
             <?php include 'includes/info.php';?>
             <?php include 'includes/platforms.php';?>
+            <?php include 'includes/trusted.php';?>
         </main>
         <?php include 'includes/footer.php' ?>
     </div>

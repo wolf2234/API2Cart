@@ -1,0 +1,66 @@
+.platforms {
+    padding: 50px 0px;
+    background-color: #f2f2f2;
+}
+
+
+.platform {}
+
+.platform__title {
+    color: #003494;
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.platform__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.platform__info ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+
+.platform__info ul li,
+.platform__info ul li span {
+    color: #444;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.platform__info ul li span {
+    color: #000000;
+    font-weight: 400;
+}
+
+.platform__info ul li {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.platform__info ul li::before {
+    content: "";
+    display: inline-block;
+    background-color: #000;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    min-width: 8px;
+    min-height: 8px;
+}
+
+.platform__body {}
+
+.platform__text {
+    color: #444;
+    font-weight: 800;
+    line-height: 1.5;
+}

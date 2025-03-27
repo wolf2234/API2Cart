@@ -68,7 +68,7 @@
                 </div>
                 <div class="pure-u-1-2 pure-u-sm-1-2">
                     <div class="info-video">
-                        
+                        <iframe src="https://www.youtube.com/embed/TciK5tnlxd0?autoplay=0&amp;rel=0" frameborder="0" allowfullscreen="1" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe>
                     </div>
                 </div>
                 <div class="pure-u-1-2 pure-u-sm-1-2">

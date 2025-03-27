@@ -33,6 +33,7 @@ function api2Cart_scripts() {
     // wp_enqueue_script( 'jq-script', get_template_directory_uri() . '/assets/js/jq-script.js', array('jquery'), null, true);
     wp_enqueue_script( 'header-script', get_template_directory_uri() . '/assets/js/header.js', array('jquery'), null, true);
     wp_enqueue_script( 'sub-header-script', get_template_directory_uri() . '/assets/js/sub-header.js', array('jquery'), null, true);
+    wp_enqueue_script( 'show-block-script', get_template_directory_uri() . './assets/modules/show-block/js/show-block.js', array('jquery'), null, true);
     wp_enqueue_script( 'scripts', get_template_directory_uri() . '/assets/js/scripts.js', array('jquery'), null, true);
 } 
 

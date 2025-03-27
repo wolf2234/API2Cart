@@ -86,6 +86,7 @@
     align-self: flex-start;
     width: 40px;
     height: 35px;
+    border-radius: 50%;
 }
 
 .step__items {

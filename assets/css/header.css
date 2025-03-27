@@ -255,6 +255,19 @@
     background: #2e83f1;
 }
 
+.button__link_blue {
+    border: 1px solid #2e83f1;
+    color: #2e83f1;
+    padding: 10px 30px;
+}
+
+.button__link_blue:hover {
+    border: 1px solid #fff;
+    outline: 1px solid #2e83f1;
+    background-color: #2e83f1;
+    color: #fff;
+}
+
 .buttons__login .button__link_orange::before {
     content: '';
     display: inline-block;

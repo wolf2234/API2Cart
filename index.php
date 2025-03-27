@@ -17,6 +17,12 @@
             <?php include 'includes/platforms.php';?>
             <?php include 'includes/trusted.php';?>
             <?php include 'includes/api2cart-info.php';?>
+            <?php include 'includes/slider.php';?>
+            <?php include 'includes/experience.php';?>
+            <div class="support-ukraine">
+                <div class="support-ukraine__text">Support Ukraine in its struggle against Russia’s invasion</div>
+                <a href="#" class="support-ukraine__btn">Support Ukraine</a>
+            </div>
         </main>
         <?php include 'includes/footer.php' ?>
     </div>

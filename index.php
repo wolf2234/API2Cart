@@ -16,6 +16,7 @@
             <?php include 'includes/info.php';?>
             <?php include 'includes/platforms.php';?>
             <?php include 'includes/trusted.php';?>
+            <?php include 'includes/api2cart-info.php';?>
         </main>
         <?php include 'includes/footer.php' ?>
     </div>

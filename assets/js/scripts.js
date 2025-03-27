@@ -4,4 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
         .addEventListener("click", function (e) {
             e.preventDefault();
         });
+
+    document
+        .querySelector(".scroll-top")
+        .addEventListener("click", function (e) {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        });
 });

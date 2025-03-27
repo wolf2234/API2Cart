@@ -25,6 +25,7 @@ function api2Cart_styles() {
     wp_enqueue_style('api2cart-info-style', get_template_directory_uri() . '/assets/css/api2cart-info.css');
     wp_enqueue_style('slider-style', get_template_directory_uri() . '/assets/css/slider.css');
     wp_enqueue_style('experience-style', get_template_directory_uri() . '/assets/css/experience.css');
+    wp_enqueue_style('footer-style', get_template_directory_uri() . '/assets/css/footer.css');
     wp_enqueue_style('main-style', get_template_directory_uri() . '/assets/css/main-style.css');
 }
 

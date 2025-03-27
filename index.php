@@ -25,6 +25,9 @@
             </div>
         </main>
         <?php include 'includes/footer.php' ?>
+        <button class="scroll-top">
+            <img src="wp-content/themes/api2cart/assets/img/triangle_arrow.png" alt="Tringle">
+        </button>
     </div>
     <?php wp_footer(); ?>
 </body>

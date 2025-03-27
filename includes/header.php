@@ -2,7 +2,10 @@
     <div class="container-large">
         <div class="pure-g">
             <div class="pure-u-1 pure-u-sm-1-6">
-                <div class="logo"><?php the_custom_logo($blog_id); ?></div>
+                <div class="logo">
+                    <?php /* the_custom_logo($blog_id); */?>
+                    <img src="wp-content/themes/api2cart/assets/img/api2cart_logo.png" alt="Logo">
+                </div>
             </div>
             <div class="pure-u-1 pure-u-sm-1-6">
                 <div class="search">

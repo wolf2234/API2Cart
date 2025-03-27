@@ -18,6 +18,7 @@ function api2Cart_styles() {
     wp_enqueue_style('header-style', get_template_directory_uri() . '/assets/css/header.css');
     wp_enqueue_style('sub-header-style', get_template_directory_uri() . '/assets/css/sub-header.css');
     wp_enqueue_style('advantage-style', get_template_directory_uri() . '/assets/css/advantage.css');
+    wp_enqueue_style('steps-style', get_template_directory_uri() . '/assets/css/steps.css');
     wp_enqueue_style('main-style', get_template_directory_uri() . '/assets/css/main-style.css');
 }
 

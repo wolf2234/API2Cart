@@ -11,6 +11,7 @@
         <?php include 'includes/header.php';?>
         <?php include 'includes/sub-header.php';?>
         <main class="main">
+            <?php include 'includes/advantages.php';?>
         </main>
         <?php include 'includes/footer.php' ?>
     </div>
